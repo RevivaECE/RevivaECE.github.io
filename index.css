@@ -1,0 +1,480 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+body{
+    margin:0;
+}
+*{
+    margin:0px;
+}
+.navbar{
+    display:flex;
+    height:54px;
+    background-color:#2E1568;
+    padding-left:50px;
+    padding-right:50px;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-link-container{
+    display:flex;
+    flex-direction:row;
+}
+.navlinks{
+    font-family:'Rubik', sans-serif;
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    width:100px;
+    letter-spacing:1px;
+}
+.logo{
+    display:block;
+    width:180px;
+    height:auto;
+}
+.hero-section{
+    background-image:linear-gradient(rgba(255,255,255, 0.7),rgba(255,255,255, 0.9)),url("img/ecedep.jpg");
+    display:block;
+    height:93vh;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    padding-left:50px;
+    padding-right:50px;
+    box-sizing:border-box;    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.ecedep-text{
+   font-size:24px;
+   font-family:'Special Elite', cursive;
+   writing-mode:vertical-lr;
+   text-orientation:upright;
+   display:block;
+   width:max-content;
+   color:#2E1568;
+   position:relative;
+   top:-40px;
+}
+
+.icon{
+    display:none !important;
+}
+
+.ecedep-ece{
+    font-size:144px;
+    font-family:'Special Elite', cursive;
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+    display:block;
+    width:max-content;
+    color:#2E1568;
+    position:relative;
+    width:max-content;
+ }
+.ECEdep{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    width:max-content;
+}
+.welcome-hero-event{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:max-content;
+}
+.welcome-covver{
+    font-family:'Sansita Swashed', cursive;
+    letter-spacing:5px;
+    font-size:30px;
+    width:max-content;
+}
+.welcom-quote{
+    color:#FB0AA6;
+}
+.welcome-txtt{
+    font-family: 'Anton', sans-serif;
+    font-size:36px;
+    color:#FB0AA6;
+    width:max-content;
+}
+.welcome-venue{
+    font-family: 'Arvo', serif;
+    font-size:24px;
+    color:#2474D2;
+    font-weight:bolder;
+    letter-spacing:2px;
+    margin-top:50px;
+}
+.gceb-text{
+    font-family:'Rubik', sans-serif;
+    color:#2E1568;
+    font-size:24px;
+    font-style:bold;
+    font-weight:900px;
+    letter-spacing:3px;
+    line-height:1.2;
+}
+.gceb-dep{
+    font-family:'Rubik', sans-serif;
+    color:#2E1568;
+    font-size:18px;
+    font-style:bold;
+    font-weight:900px;
+    letter-spacing:3px;
+    margin-top:10px;
+}
+.Gceb-present{
+    font-family:'Rubik', sans-serif;
+    font-weight:lighter;
+    font-size:14px;
+    color:#2E1568;
+    margin:20px 0;
+    letter-spacing:3px;
+}
+
+.Gceb-Reviva, .Gceb-Reviva *{
+    font-family: 'Permanent Marker', cursive;
+    font-size:48px;
+    color:#FB0AA6;
+    letter-spacing:3px;
+}
+.gceb-Reviva-22{
+    font-size:24px;
+}
+
+.Registration-link{
+    display:block;
+    text-decoration:none;
+    background-color:#FB0AA6;
+    color:white;
+    padding:10px 50px;
+    font-size:14px;
+    border-radius:50px;
+    font-family:'Rubik', sans-serif;
+    letter-spacing:3px;
+    border:1px solid #2E1568;
+    height:auto;
+    width:max-content;
+    margin-top:40px;
+}
+.gceb-nte{
+    font-family:'Rubik', sans-serif;
+    font-weight:lighter;
+    font-size:14px;
+    color:#2E1568;
+    letter-spacing:3px;
+}
+.hero-right-section{
+    width:350px;
+}
+.icon{
+    text-decoration:none;
+}
+
+#menu-clickk{
+    display:none;
+    background-color:#2E1568;
+    border-top:1px solid #fff;
+    padding:20px 0;
+}
+.navlinks1{
+    display:block;
+    font-family:'Rubik', sans-serif;
+    letter-spacing:3px;
+    text-align:center;
+    text-decoration:none;
+    line-height:2.2;
+    color:white;
+}
+
+/*introsection*/
+.intro{
+    padding:0 50px;
+    height:100vh;
+    width: 100%;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.intro:nth-child(odd){
+    
+    background-color:#F3EEFF;
+}
+
+.intro-text , .topic-title{
+    font-size:90px;
+    font-family:'Special Elite', cursive;
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+    color:#2E1568;
+}
+
+.intro-video{
+    display:block;
+    margin:auto;
+    width:60%;
+    height:auto;
+}
+
+/*about section*/
+.about-description, .description{
+    width:900px;
+    font-family:sans-serif;
+    font-size:22px;
+    text-align:justify;
+    color:#2E1568;
+    letter-spacing:3;
+    line-height:1.5;
+    display:block;
+    margin:auto;
+}
+
+/*team section*/
+.team-name{
+    font-family:'Rubik', sans-serif;
+    color:#fff;
+    font-size:30px;
+    background-color:#2E1568;
+    text-align:center;
+    width:250px !important;
+    height:100px;
+    position:relative;
+    border-radius:20px 0 0 20px;
+}
+.team-img{
+    width:100px;
+    height:100px;
+    background-color:#fff;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.team-1{
+    display:flex;
+    flex-direction:row;
+    border-radius:20px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.team-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+.team-name p{
+    padding-top:30px;
+}
+
+.team-name:nth-child(even){
+    border-radius:0 20px 20px 0;
+}
+
+.team-img:nth-child(odd){
+    border-radius:20px 0 0 20px;
+}
+
+/*fotter section*/
+.footerr{
+    background-color:#2E1568;
+    padding:4px 50px;
+    padding-top:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    height:200px;
+    align-items:center;
+}
+.fotter-title{
+    font-family:'Rubik', sans-serif;
+    font-size:18px;
+    color:white;
+}
+.navlinks2{
+    color:white;
+    text-decoration:none;
+    display:block;
+    font-size:14px;
+    margin:5px 0px;
+}
+.sitemap{
+    height:150px;
+}
+.sitemap ul li{
+    color:white;
+}
+.bargur-image{
+    width:100px;
+    height:130px;
+}
+@media (max-width:1100px){
+    .ecedep-text{
+        font-size:18px;
+        top:-20px;
+    }
+    .ecedep-ece{
+        font-size:90px;
+    }
+    .welcome-covver{
+        font-size:24px;
+    }
+    .welcome-txtt{
+        font-size:30px;
+    }
+    .welcome-venue{
+        font-size:20px;
+    }
+    .gceb-text{
+        font-size:18px;
+    }
+    .gceb-dep{
+        font-size:14px;
+    }
+    .Gceb-present{
+        font-size:10px;
+    }
+    .Gceb-Reviva{
+        font-size:36px;
+    }
+    .gceb-Reviva-22{
+        font-size:18px;
+    }
+    .Registration-link{
+        font-size:12px;
+    }
+    .gceb-nte{
+        font-size:10px;
+    }
+    .hero-right-section{
+        width:280px;
+    }
+    .intro{
+        padding:0 20px;
+        box-sizing:border-box;
+    }
+    .intro-video{
+        width:500px;
+        height:281px;
+    }
+    .intro-text, .topic-title{
+        font-size:80px;
+    }
+}
+
+@media (max-width:900px){
+    .navbar{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .ecedep-text{
+        font-size:16px;
+        writing-mode:horizontal-tb;
+        position:relative;
+        top:1px;
+    }
+    .ecedep-ece{
+        font-size:60px;
+        writing-mode:horizontal-tb;
+    }
+    .ECEdep{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        margin:auto;
+    }
+    .hero-section{
+        flex-wrap:wrap;
+        padding-left:20px;
+        padding-right:20px;
+        background-position-x:47%;
+        flex-direction:column;
+    }
+    .hero-right-section{
+        display:block;
+        margin:auto;
+    }
+    .Registration-link{
+        margin:30px auto;
+    }
+    .welcome-venue{
+        font-size:16px;
+        margin-top:20px;
+    }
+    .welcome-hero-event{
+        margin:auto;
+    }
+    .logo{
+        width:120px;
+    }
+    .navlinks{
+        display:none;
+    }
+    .icon{
+        display:block !important;
+    }
+    .menuu{
+        color:white;
+    }
+    .Gceb-Reviva{
+        text-align:center;
+    }
+    .gceb-nte{
+        text-align:center;
+    }
+    .intro-video{
+        width:100%;
+        height:49vw;
+        box-sizing:border-box;
+    }
+    .intro-text, .topic-title{
+        font-size:40px;
+        writing-mode:horizontal-tb;
+        margin-top:60px;
+    }
+    .intro{
+        flex-direction:column;
+    }
+    .about-description, .description{
+        width: 95%;
+        font-size:16px;
+        line-height:1.5;
+    }
+    .footerr{
+        padding:4px 20px;
+        position:relative;
+    }
+    .fotter-title{
+        font-size:12px;
+    }
+    .navlinks2{
+        font-size:10px;
+    }
+    .bargur-image{
+        position:absolute;
+        width:60px;
+        height:75px;
+        bottom:30px;
+        right:20%;
+    }
+    .team-container{
+        grid-template-columns:1fr;
+    }
+    .team-name p{
+        font-size:20px;
+        margin-top:5px;
+    }
+}
